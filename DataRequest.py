@@ -52,7 +52,3 @@ class DataHist:
 
 
 
-if __name__ == "__main__":
-    c = DataHist('AAPL',1000,'Standard Indicators')  # change data source here
-    print(c.RequestFinaldf())
-
