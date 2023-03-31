@@ -293,10 +293,3 @@ class ModelTrain():
         print('MSE after {} epochs = '.format(self.epochs), score * score)
 
 
-
-if __name__ == "__main__":
-    MT = ModelTrain('aapl')
-    # MT.SetAlgorithm('LSTM')
-    modelfile = MT.GetModel()
-    MT.ModelTest(modelfile)
-
