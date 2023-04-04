@@ -3,7 +3,7 @@ Part1: Setting Environment Install Anaconda: Go to Anaconda installation page: �
 
 Follow the instructions on the following link to install Anaconda: https://docs.anaconda.com/anaconda/install/
 
-One reason we recommend using Anaconda is that you can create virtual environments for your demand.
+One reason recommend using Anaconda is that you can create virtual environments for your demand.
 
 Each virtual environment will not affect each other.
 
@@ -51,7 +51,7 @@ Add a output folder: mkdir output // IMPORTANT!!!
 
 Run file: $ python3
 
-Example: $ cd /Users/jing/Desktop/Version1.1/ $ python3 Stock_Prediction_LIVE_ver1.1.py
+Example: $ cd /Users/Ziyuan/Desktop/DS-440/ $ python3 Stock_Prediction.py
 
 Show User Interface: The interface contains a search bar for stock input. Input Stock Symbol: Example : “AAPL” for apple, “​GOOGL” for google, “AMZN” for amazon. Output: plot of 90- days stock price data.
 
