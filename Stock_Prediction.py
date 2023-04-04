@@ -37,7 +37,7 @@ time_steps = 30
 root = tk.Tk()
 
 ####### App Name #######
-root.title('AI Stock Prediction For S&P500 LIVE ver 1.3.4')
+root.title('AI Stock Prediction For S&P500')
 
 # Size of the window
 root.geometry('1200x700')
@@ -64,9 +64,9 @@ InputSearchEntry = tk.Entry(topLeftFrame)
 InputSearchEntry.pack(side=TOP)
 
 ####### Place Logo #######
-path = "./visionx-logo.png"
+path = "./Penn-State-University-Logo.png"
 logo = Image.open(path)
-logo = logo.resize((200, 200), Image.ANTIALIAS)
+logo = logo.resize((300, 300), Image.ANTIALIAS)
 # Creates a Tkinter-compatible photo image, which can be used everywhere Tkinter expects an image object.
 logo = ImageTk.PhotoImage(logo)
 # The Label widget is a standard Tkinter widget used to display a text or image on the screen.
