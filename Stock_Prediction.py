@@ -64,7 +64,7 @@ InputSearchEntry = tk.Entry(topLeftFrame)
 InputSearchEntry.pack(side=TOP)
 
 ####### Place Logo #######
-path = "./Penn-State-University-Logo.png"
+path = "./EuqiCast_Logo.PNG"
 logo = Image.open(path)
 logo = logo.resize((300, 300), Image.ANTIALIAS)
 # Creates a Tkinter-compatible photo image, which can be used everywhere Tkinter expects an image object.
